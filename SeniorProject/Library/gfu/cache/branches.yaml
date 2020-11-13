@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-11-13T14:04:27.412-05:00
+  lastUpdatedAtString: 2020-11-13T14:05:53.574-05:00
   initializedAtString: 2020-11-13T13:49:46.911-05:00
-  localBranches: []
+  localBranches:
+  - name: master
+    tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
@@ -30,8 +32,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/BlossomHacker/project-garnet.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
