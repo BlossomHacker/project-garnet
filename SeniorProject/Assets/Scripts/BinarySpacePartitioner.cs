@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-internal class BinarySpacePartitioner
+public class BinarySpacePartitioner
 {
     RoomNode rootNode;
 
     public RoomNode RootNode { get => rootNode; }
-
     public BinarySpacePartitioner(int dungeonWidth, int dungeonLength)
     {
-        this.rootNode = new RoomNode(new Vector2Int(0, 0), new Vector2Int(dungeonWidth,dungeonLength), null, 0 );
+        this.rootNode = new RoomNode(new Vector2Int(0, 0), new Vector2Int(dungeonWidth, dungeonLength), null, 0);
     }
 
     public List<RoomNode> PrepareNodesCollection(int maxIterations, int roomWidthMin, int roomLengthMin)
@@ -34,38 +33,36 @@ internal class BinarySpacePartitioner
 
     private void SplitTheSpace(RoomNode currentNode, List<RoomNode> listToReturn, int roomLengthMin, int roomWidthMin, Queue<RoomNode> graph)
     {
-        Line line = GetLineDividingSpace(currentNode.BottomLeftCorner,
-                                        currentNode.TopRightCorner,
-                                        roomWidthMin,
-                                        roomLengthMin);
+        Line line = GetLineDividingSpace(
+            currentNode.BottomLeftAreaCorner,
+            currentNode.TopRightAreaCorner,
+            roomWidthMin,
+            roomLengthMin);
         RoomNode node1, node2;
         if(line.Orientation == Orientation.Horizontal)
         {
-            node1 = new RoomNode(currentNode.BottomLeftCorner,
-                new Vector2Int(currentNode.TopRightCorner.x, line.Coordinates.y),
-                currentNode,
-                currentNode.TreeLayerIndex+1);
-            node2 = new RoomNode( new Vector2Int(currentNode.BottomLeftCorner.x, line.Coordinates.y),
-                currentNode.TopRightCorner,
+            node1 = new RoomNode(currentNode.BottomLeftAreaCorner,
+                new Vector2Int(currentNode.TopRightAreaCorner.x, line.Coordinates.y),
                 currentNode,
                 currentNode.TreeLayerIndex + 1);
-
+            node2 = new RoomNode(new Vector2Int(currentNode.BottomLeftAreaCorner.x, line.Coordinates.y),
+                currentNode.TopRightAreaCorner,
+                currentNode,
+                currentNode.TreeLayerIndex + 1);
         }
         else
         {
-            node1 = new RoomNode(currentNode.BottomLeftCorner,
-                new Vector2Int(line.Coordinates.x,currentNode.TopRightCorner.y),
+            node1 = new RoomNode(currentNode.BottomLeftAreaCorner,
+                new Vector2Int(line.Coordinates.x,currentNode.TopRightAreaCorner.y),
                 currentNode,
                 currentNode.TreeLayerIndex + 1);
-            node2 = new RoomNode(new Vector2Int(line.Coordinates.x,currentNode.BottomLeftCorner.y),
-                currentNode.TopRightCorner,
+            node2 = new RoomNode(new Vector2Int(line.Coordinates.x,currentNode.BottomLeftAreaCorner.y),
+                currentNode.TopRightAreaCorner,
                 currentNode,
                 currentNode.TreeLayerIndex + 1);
         }
         AddNewNodeToCollections(listToReturn, graph, node1);
         AddNewNodeToCollections(listToReturn, graph, node2);
-
-
     }
 
     private void AddNewNodeToCollections(List<RoomNode> listToReturn, Queue<RoomNode> graph, RoomNode node)
@@ -74,50 +71,47 @@ internal class BinarySpacePartitioner
         graph.Enqueue(node);
     }
 
-    private Line GetLineDividingSpace(Vector2Int bottomLeftCorner, Vector2Int topRightCorner, int roomWidthMin, int roomLengthMin)
+    private Line GetLineDividingSpace(Vector2Int bottomLeftAreaCorner, Vector2Int topRightAreaCorner, int roomWidthMin, int roomLengthMin)
     {
         Orientation orientation;
-        bool lengthStatus = (topRightCorner.y - bottomLeftCorner.y) >= 2 * roomLengthMin;
-        bool widthStatus = (topRightCorner.x - bottomLeftCorner.x) >= 2 * roomWidthMin;
+        bool lengthStatus = (topRightAreaCorner.y - bottomLeftAreaCorner.y) >= 2 * roomLengthMin;
+        bool widthStatus = (topRightAreaCorner.x - bottomLeftAreaCorner.x) >= 2*roomWidthMin;
         if (lengthStatus && widthStatus)
         {
-            orientation = (Orientation)(Random.Range(0, 2));
-        }
-        else if(widthStatus)
+            orientation = (Orientation)(Random.Range(0,2));
+        }else if (widthStatus)
         {
             orientation = Orientation.Vertical;
-
         }
         else
         {
             orientation = Orientation.Horizontal;
-
         }
-        return new Line(orientation, GetCoordinatesForOrientation(
+        return new Line(orientation, GetCoordinatesFororientation(
             orientation,
-            bottomLeftCorner,
-            topRightCorner,
+            bottomLeftAreaCorner,
+            topRightAreaCorner,
             roomWidthMin,
             roomLengthMin));
     }
 
-    private Vector2Int GetCoordinatesForOrientation(Orientation orientation, Vector2Int bottomLeftCorner, Vector2Int topRightCorner, int roomWidthMin, int roomLengthMin)
+    private Vector2Int GetCoordinatesFororientation(Orientation orientation, Vector2Int bottomLeftAreaCorner, Vector2Int topRightAreaCorner, int roomWidthMin, int roomLengthMin)
     {
         Vector2Int coordinates = Vector2Int.zero;
-        if ( orientation==Orientation.Horizontal)
+        if (orientation == Orientation.Horizontal)
         {
             coordinates = new Vector2Int(
-                0,
+                0, 
                 Random.Range(
-                (bottomLeftCorner.y + roomLengthMin),
-                (topRightCorner.y - roomLengthMin)));
+                (bottomLeftAreaCorner.y + roomLengthMin),
+                (topRightAreaCorner.y - roomLengthMin)));
         }
         else
         {
             coordinates = new Vector2Int(
                 Random.Range(
-                (bottomLeftCorner.x + roomWidthMin),
-                (topRightCorner.x - roomWidthMin))
+                (bottomLeftAreaCorner.x + roomWidthMin),
+                (topRightAreaCorner.x - roomWidthMin))
                 ,0);
         }
         return coordinates;
