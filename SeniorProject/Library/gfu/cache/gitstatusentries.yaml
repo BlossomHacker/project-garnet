@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-11-13T14:09:03.207-05:00
+  lastUpdatedAtString: 2020-11-13T14:09:58.634-05:00
   initializedAtString: 2020-11-13T14:06:20.225-05:00
   entries:
   - path: SeniorProject\Library\gfu\cache\branches.yaml
@@ -58,18 +58,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: SeniorProject\Packages\manifest.json
-    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Packages\manifest.json
-    projectPath: Packages\manifest.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: SeniorProject\Packages\packages-lock.json
-    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Packages\packages-lock.json
-    projectPath: Packages\packages-lock.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: SeniorProject\Temp\ProcessJobs\72c38c351c10dd27e3ee5d6b5326c304.bakert
     fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\ProcessJobs\72c38c351c10dd27e3ee5d6b5326c304.bakert
     projectPath: Temp\ProcessJobs\72c38c351c10dd27e3ee5d6b5326c304.bakert
