@@ -18,6 +18,10 @@ public class DungeonCreator : MonoBehaviour
     public int roomOffset;
     public GameObject wallVertical, wallHorizontal;
     public GameObject Tree;
+    public GameObject Player;
+    public GameObject Exit;
+    Quaternion q = new Quaternion(0, 0, 0, 0);
+
     List<Vector3Int> possibleDoorVerticalPosition;
     List<Vector3Int> possibleDoorHorizontalPosition;
     List<Vector3Int> possibleWallHorizontalPosition;
@@ -50,12 +54,25 @@ public class DungeonCreator : MonoBehaviour
             CreateMesh(listOfRooms[i].BottomLeftAreaCorner, listOfRooms[i].TopRightAreaCorner);
             int xvals = UnityEngine.Random.Range(listOfRooms[i].BottomLeftAreaCorner.x, listOfRooms[i].TopRightAreaCorner.x);
             int yvals = UnityEngine.Random.Range(listOfRooms[i].BottomLeftAreaCorner.y, listOfRooms[i].TopRightAreaCorner.y);
-            Vector3 pos = new Vector3(xvals, yvals, 0);
-            Quaternion q = new Quaternion(0, 0, 0, 0);
+            Vector3 pos = new Vector3(xvals,0, yvals);
             Instantiate(Tree, pos, q);
 
 
         }
+        int Random2 = UnityEngine.Random.Range(0, listOfRooms.Count);
+        int Random3 = UnityEngine.Random.Range(0, listOfRooms.Count);
+
+        int xvals2 = UnityEngine.Random.Range(listOfRooms[Random2].BottomLeftAreaCorner.x, listOfRooms[Random2].TopRightAreaCorner.x);
+        int yvals2 = UnityEngine.Random.Range(listOfRooms[Random2].BottomLeftAreaCorner.y, listOfRooms[Random2].TopRightAreaCorner.y);
+        int xvals3 = UnityEngine.Random.Range(listOfRooms[Random3].BottomLeftAreaCorner.x, listOfRooms[Random3].TopRightAreaCorner.x);
+        int yvals3 = UnityEngine.Random.Range(listOfRooms[Random3].BottomLeftAreaCorner.y, listOfRooms[Random3].TopRightAreaCorner.y);
+        Vector3 pos2 = new Vector3(xvals2, 0, yvals2);
+        Vector3 pos3 = new Vector3(xvals3, 0, yvals3);
+        Instantiate(Player, pos2, q);
+        Instantiate(Exit, pos3, q);
+
+
+
         CreateWalls(wallParent);
     }
 

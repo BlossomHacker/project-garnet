@@ -13,9 +13,713 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-11-13T14:09:58.634-05:00
-  initializedAtString: 2020-11-13T14:06:20.225-05:00
+  lastUpdatedAtString: 2020-11-16T05:30:45.251-05:00
+  initializedAtString: 2020-11-13T19:19:24.916-05:00
   entries:
+  - path: SeniorProject\Assets\Prefabs\gate Variant.prefab
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Prefabs\gate
+      Variant.prefab
+    projectPath: Assets\Prefabs\gate Variant.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Assets\Prefabs\gate Variant.prefab.meta
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Prefabs\gate
+      Variant.prefab.meta
+    projectPath: Assets\Prefabs\gate Variant.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Assets\Prefabs\L-System.prefab
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Prefabs\L-System.prefab
+    projectPath: Assets\Prefabs\L-System.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Assets\Prefabs\WallVertical.prefab
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Prefabs\WallVertical.prefab
+    projectPath: Assets\Prefabs\WallVertical.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Assets\Scenes\Game_Field.unity
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Scenes\Game_Field.unity
+    projectPath: Assets\Scenes\Game_Field.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Assets\Scenes\StartScene.unity
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Scenes\StartScene.unity
+    projectPath: Assets\Scenes\StartScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Assets\Scripts\DungeonCreator.cs
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Scripts\DungeonCreator.cs
+    projectPath: Assets\Scripts\DungeonCreator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Assets\Scripts\LSystem.cs
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Assets\Scripts\LSystem.cs
+    projectPath: Assets\Scripts\LSystem.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\ArtifactDB
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\Artifacts\00\00b814547e53f85cddc86ced3f51db4b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\00\00b814547e53f85cddc86ced3f51db4b
+    projectPath: Library\Artifacts\00\00b814547e53f85cddc86ced3f51db4b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\07\07e314d5d20f778497414529a52fecf9
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\07\07e314d5d20f778497414529a52fecf9
+    projectPath: Library\Artifacts\07\07e314d5d20f778497414529a52fecf9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\0b\0b84e7162acc5ebc3a70143e61e0de78
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\0b\0b84e7162acc5ebc3a70143e61e0de78
+    projectPath: Library\Artifacts\0b\0b84e7162acc5ebc3a70143e61e0de78
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\0b\0b95da6e1ebf3f9245846edb402edf67
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\0b\0b95da6e1ebf3f9245846edb402edf67
+    projectPath: Library\Artifacts\0b\0b95da6e1ebf3f9245846edb402edf67
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\16\167008442985743d027bd0db98dd7dcd
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\16\167008442985743d027bd0db98dd7dcd
+    projectPath: Library\Artifacts\16\167008442985743d027bd0db98dd7dcd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\18\18df10e7f7cedc19f499a74cedc6a42e
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\18\18df10e7f7cedc19f499a74cedc6a42e
+    projectPath: Library\Artifacts\18\18df10e7f7cedc19f499a74cedc6a42e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\1b\1b8f3336286bdd2f1d241022d33d8847
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\1b\1b8f3336286bdd2f1d241022d33d8847
+    projectPath: Library\Artifacts\1b\1b8f3336286bdd2f1d241022d33d8847
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\1d\1d39415358430ae8277967fc3f3a3503
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\1d\1d39415358430ae8277967fc3f3a3503
+    projectPath: Library\Artifacts\1d\1d39415358430ae8277967fc3f3a3503
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\1f\1f20005fb920de63d818073fe2f3ecf6
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\1f\1f20005fb920de63d818073fe2f3ecf6
+    projectPath: Library\Artifacts\1f\1f20005fb920de63d818073fe2f3ecf6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\22\22e32d0c44e9e42cd6ae4a039afc4af7
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\22\22e32d0c44e9e42cd6ae4a039afc4af7
+    projectPath: Library\Artifacts\22\22e32d0c44e9e42cd6ae4a039afc4af7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\25\25bf9fa78093a7213ea8ceffeb7e32fb
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\25\25bf9fa78093a7213ea8ceffeb7e32fb
+    projectPath: Library\Artifacts\25\25bf9fa78093a7213ea8ceffeb7e32fb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\26\26e11d0e9c61abf36639f25c96097acb
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\26\26e11d0e9c61abf36639f25c96097acb
+    projectPath: Library\Artifacts\26\26e11d0e9c61abf36639f25c96097acb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\2a\2a3d1b6eedb67b3dbe0e6431da08a366
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\2a\2a3d1b6eedb67b3dbe0e6431da08a366
+    projectPath: Library\Artifacts\2a\2a3d1b6eedb67b3dbe0e6431da08a366
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\2a\2a7ffe3622ace43bfae235219545ba84
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\2a\2a7ffe3622ace43bfae235219545ba84
+    projectPath: Library\Artifacts\2a\2a7ffe3622ace43bfae235219545ba84
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\2b\2b6e1b518275060c44dd3704adab2a0b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\2b\2b6e1b518275060c44dd3704adab2a0b
+    projectPath: Library\Artifacts\2b\2b6e1b518275060c44dd3704adab2a0b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\2d\2d529910c45d9e6d81130424a7a1ca8e
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\2d\2d529910c45d9e6d81130424a7a1ca8e
+    projectPath: Library\Artifacts\2d\2d529910c45d9e6d81130424a7a1ca8e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\31\31284f219dba14416f1a8ae406e0442c
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\31\31284f219dba14416f1a8ae406e0442c
+    projectPath: Library\Artifacts\31\31284f219dba14416f1a8ae406e0442c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\32\323dcbbb995428ac29814d5d5e2d083f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\32\323dcbbb995428ac29814d5d5e2d083f
+    projectPath: Library\Artifacts\32\323dcbbb995428ac29814d5d5e2d083f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\35\35dae8d66f01e906b70b9324dd74c45b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\35\35dae8d66f01e906b70b9324dd74c45b
+    projectPath: Library\Artifacts\35\35dae8d66f01e906b70b9324dd74c45b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\36\362aafef1d415da7c76ad72a7541afed
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\36\362aafef1d415da7c76ad72a7541afed
+    projectPath: Library\Artifacts\36\362aafef1d415da7c76ad72a7541afed
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\37\37832c80be3b50fc3dc14de37bbfb877
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\37\37832c80be3b50fc3dc14de37bbfb877
+    projectPath: Library\Artifacts\37\37832c80be3b50fc3dc14de37bbfb877
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\37\378512fa5cc1fe5386b77113c32a9063
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\37\378512fa5cc1fe5386b77113c32a9063
+    projectPath: Library\Artifacts\37\378512fa5cc1fe5386b77113c32a9063
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\39\39357ccdd61a4f71be46be8239e4eee5
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\39\39357ccdd61a4f71be46be8239e4eee5
+    projectPath: Library\Artifacts\39\39357ccdd61a4f71be46be8239e4eee5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\3a\3a0de194c9a39bbd3501218ccd55af79
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\3a\3a0de194c9a39bbd3501218ccd55af79
+    projectPath: Library\Artifacts\3a\3a0de194c9a39bbd3501218ccd55af79
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\3e\3e5eb18eb6650f1d3d303640b6dd260d
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\3e\3e5eb18eb6650f1d3d303640b6dd260d
+    projectPath: Library\Artifacts\3e\3e5eb18eb6650f1d3d303640b6dd260d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\42\4293c6e14867414053180f57435318b4
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\42\4293c6e14867414053180f57435318b4
+    projectPath: Library\Artifacts\42\4293c6e14867414053180f57435318b4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\43\43479d8ff5ffbaa404952ee12fd5839c
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\43\43479d8ff5ffbaa404952ee12fd5839c
+    projectPath: Library\Artifacts\43\43479d8ff5ffbaa404952ee12fd5839c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\43\434e63f0f0c6110cfb51cb6a2f4c2b97
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\43\434e63f0f0c6110cfb51cb6a2f4c2b97
+    projectPath: Library\Artifacts\43\434e63f0f0c6110cfb51cb6a2f4c2b97
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\44\44c84bc3a6cd7536afe0c7bfb9b4560f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\44\44c84bc3a6cd7536afe0c7bfb9b4560f
+    projectPath: Library\Artifacts\44\44c84bc3a6cd7536afe0c7bfb9b4560f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\45\4568c949949c541d7140c2f7eedd8916
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\45\4568c949949c541d7140c2f7eedd8916
+    projectPath: Library\Artifacts\45\4568c949949c541d7140c2f7eedd8916
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\45\45da64525106e493067e9964a1a4dc49
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\45\45da64525106e493067e9964a1a4dc49
+    projectPath: Library\Artifacts\45\45da64525106e493067e9964a1a4dc49
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\49\4908fe654bd89c07dc54b93027907783
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\49\4908fe654bd89c07dc54b93027907783
+    projectPath: Library\Artifacts\49\4908fe654bd89c07dc54b93027907783
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\49\49f1fcc83e43523439051b2cc4ff4e20
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\49\49f1fcc83e43523439051b2cc4ff4e20
+    projectPath: Library\Artifacts\49\49f1fcc83e43523439051b2cc4ff4e20
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\4d\4d09581f22137f27fa2de5fff1bdbd40
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\4d\4d09581f22137f27fa2de5fff1bdbd40
+    projectPath: Library\Artifacts\4d\4d09581f22137f27fa2de5fff1bdbd40
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\4d\4daa8a23d4fe6a401624d33af14552e5
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\4d\4daa8a23d4fe6a401624d33af14552e5
+    projectPath: Library\Artifacts\4d\4daa8a23d4fe6a401624d33af14552e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\53\5337964ed8f9bbb6249e781286e2a441
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\53\5337964ed8f9bbb6249e781286e2a441
+    projectPath: Library\Artifacts\53\5337964ed8f9bbb6249e781286e2a441
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\5a\5a7d0e50f44a3906d386191507442c6e
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\5a\5a7d0e50f44a3906d386191507442c6e
+    projectPath: Library\Artifacts\5a\5a7d0e50f44a3906d386191507442c6e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\5a\5aa83515c0d2c2afb94a4a20e0117ff9
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\5a\5aa83515c0d2c2afb94a4a20e0117ff9
+    projectPath: Library\Artifacts\5a\5aa83515c0d2c2afb94a4a20e0117ff9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\5b\5bdf48ef91c2cb50b6973aaf6bc9f4e6
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\5b\5bdf48ef91c2cb50b6973aaf6bc9f4e6
+    projectPath: Library\Artifacts\5b\5bdf48ef91c2cb50b6973aaf6bc9f4e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\5d\5d0da047c961d903644a2c2b2e06e52f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\5d\5d0da047c961d903644a2c2b2e06e52f
+    projectPath: Library\Artifacts\5d\5d0da047c961d903644a2c2b2e06e52f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\5e\5ecdf353c47ff05b933897256b6df174
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\5e\5ecdf353c47ff05b933897256b6df174
+    projectPath: Library\Artifacts\5e\5ecdf353c47ff05b933897256b6df174
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\60\600046d602e620d68fcdb5b1a5b9177a
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\60\600046d602e620d68fcdb5b1a5b9177a
+    projectPath: Library\Artifacts\60\600046d602e620d68fcdb5b1a5b9177a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\60\6018bef3355c275a6301f80c0eef161f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\60\6018bef3355c275a6301f80c0eef161f
+    projectPath: Library\Artifacts\60\6018bef3355c275a6301f80c0eef161f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\60\60b82c24344985453c096e55b225ed22
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\60\60b82c24344985453c096e55b225ed22
+    projectPath: Library\Artifacts\60\60b82c24344985453c096e55b225ed22
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\61\61107cda480007dc393b7925791cac65
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\61\61107cda480007dc393b7925791cac65
+    projectPath: Library\Artifacts\61\61107cda480007dc393b7925791cac65
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\62\6274c2441300aa66144f40ed1479569e
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\62\6274c2441300aa66144f40ed1479569e
+    projectPath: Library\Artifacts\62\6274c2441300aa66144f40ed1479569e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\63\6333d3dc46edc10f1f3ee8ff9882c6d4
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\63\6333d3dc46edc10f1f3ee8ff9882c6d4
+    projectPath: Library\Artifacts\63\6333d3dc46edc10f1f3ee8ff9882c6d4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\67\6776c6173e753df50fd9934b015c2ee7
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\67\6776c6173e753df50fd9934b015c2ee7
+    projectPath: Library\Artifacts\67\6776c6173e753df50fd9934b015c2ee7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\6a\6a440f61bd166e13812311fbf59dc0d9
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\6a\6a440f61bd166e13812311fbf59dc0d9
+    projectPath: Library\Artifacts\6a\6a440f61bd166e13812311fbf59dc0d9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\6b\6b295ddf6f8dae6280ae14e91b668639
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\6b\6b295ddf6f8dae6280ae14e91b668639
+    projectPath: Library\Artifacts\6b\6b295ddf6f8dae6280ae14e91b668639
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\6d\6daf07e614e20e4e1ae166a34b99640b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\6d\6daf07e614e20e4e1ae166a34b99640b
+    projectPath: Library\Artifacts\6d\6daf07e614e20e4e1ae166a34b99640b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\6d\6dcdc91603c636667e6e3ffcb6558dcb
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\6d\6dcdc91603c636667e6e3ffcb6558dcb
+    projectPath: Library\Artifacts\6d\6dcdc91603c636667e6e3ffcb6558dcb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\6e\6eca114557dd647a0ea075f14bf51518
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\6e\6eca114557dd647a0ea075f14bf51518
+    projectPath: Library\Artifacts\6e\6eca114557dd647a0ea075f14bf51518
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\70\70c789e818b4bc405758766154bf2d95
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\70\70c789e818b4bc405758766154bf2d95
+    projectPath: Library\Artifacts\70\70c789e818b4bc405758766154bf2d95
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\71\7160b6b7646187529aa752ad15f663c8
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\71\7160b6b7646187529aa752ad15f663c8
+    projectPath: Library\Artifacts\71\7160b6b7646187529aa752ad15f663c8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\71\71a50d51fad1f6e26124368d9aa03e21
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\71\71a50d51fad1f6e26124368d9aa03e21
+    projectPath: Library\Artifacts\71\71a50d51fad1f6e26124368d9aa03e21
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\72\7233b25237b7391e57a7cbc03a394590
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\72\7233b25237b7391e57a7cbc03a394590
+    projectPath: Library\Artifacts\72\7233b25237b7391e57a7cbc03a394590
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\7c\7ce241a87db40624a46921233e742856
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\7c\7ce241a87db40624a46921233e742856
+    projectPath: Library\Artifacts\7c\7ce241a87db40624a46921233e742856
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\7d\7d963c4ec5f80b9bd65ebb3e800e04dc
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\7d\7d963c4ec5f80b9bd65ebb3e800e04dc
+    projectPath: Library\Artifacts\7d\7d963c4ec5f80b9bd65ebb3e800e04dc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\80\80120a2bd8b97da4f22cb0b09b1d0e3e
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\80\80120a2bd8b97da4f22cb0b09b1d0e3e
+    projectPath: Library\Artifacts\80\80120a2bd8b97da4f22cb0b09b1d0e3e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\82\82e0b8a8e0e72c3924bbb4eed1eac9a8
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\82\82e0b8a8e0e72c3924bbb4eed1eac9a8
+    projectPath: Library\Artifacts\82\82e0b8a8e0e72c3924bbb4eed1eac9a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\83\832ce3e56dd72555b9288210260cdedd
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\83\832ce3e56dd72555b9288210260cdedd
+    projectPath: Library\Artifacts\83\832ce3e56dd72555b9288210260cdedd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\84\84cd634169ad3bc99f31451b2935f62e
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\84\84cd634169ad3bc99f31451b2935f62e
+    projectPath: Library\Artifacts\84\84cd634169ad3bc99f31451b2935f62e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\85\8565a9b8a71991371b6ffe617a812b8b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\85\8565a9b8a71991371b6ffe617a812b8b
+    projectPath: Library\Artifacts\85\8565a9b8a71991371b6ffe617a812b8b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\8b\8bbc8202e1d0e5999d86e3c4993fbaf8
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\8b\8bbc8202e1d0e5999d86e3c4993fbaf8
+    projectPath: Library\Artifacts\8b\8bbc8202e1d0e5999d86e3c4993fbaf8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\98\98267fb8671bebb2599b115de002221f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\98\98267fb8671bebb2599b115de002221f
+    projectPath: Library\Artifacts\98\98267fb8671bebb2599b115de002221f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\9b\9b3164c3a39e5e7d607a73cac7c03165
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\9b\9b3164c3a39e5e7d607a73cac7c03165
+    projectPath: Library\Artifacts\9b\9b3164c3a39e5e7d607a73cac7c03165
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\9c\9c05bfb590011ab8b3de77b358813769
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\9c\9c05bfb590011ab8b3de77b358813769
+    projectPath: Library\Artifacts\9c\9c05bfb590011ab8b3de77b358813769
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\a5\a51b672168e341de0db6d1cfc66d5e00
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\a5\a51b672168e341de0db6d1cfc66d5e00
+    projectPath: Library\Artifacts\a5\a51b672168e341de0db6d1cfc66d5e00
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\a6\a63a679b1c2786250c1fa463bcfcfd72
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\a6\a63a679b1c2786250c1fa463bcfcfd72
+    projectPath: Library\Artifacts\a6\a63a679b1c2786250c1fa463bcfcfd72
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\ac\acf04d65eb9a577ccc7b8de7e768e943
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ac\acf04d65eb9a577ccc7b8de7e768e943
+    projectPath: Library\Artifacts\ac\acf04d65eb9a577ccc7b8de7e768e943
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\ad\ad5cb42743b9606e1dc7fc8e0476f863
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ad\ad5cb42743b9606e1dc7fc8e0476f863
+    projectPath: Library\Artifacts\ad\ad5cb42743b9606e1dc7fc8e0476f863
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\b0\b03f8bc6744bb985508f6d7cc5925312
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\b0\b03f8bc6744bb985508f6d7cc5925312
+    projectPath: Library\Artifacts\b0\b03f8bc6744bb985508f6d7cc5925312
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\b2\b25711ffdbec017198ca7d8a920a3223
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\b2\b25711ffdbec017198ca7d8a920a3223
+    projectPath: Library\Artifacts\b2\b25711ffdbec017198ca7d8a920a3223
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\b5\b5c6f837e06d62cbca62005a930701d1
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\b5\b5c6f837e06d62cbca62005a930701d1
+    projectPath: Library\Artifacts\b5\b5c6f837e06d62cbca62005a930701d1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\b9\b9f93150bc38b85d31c38a1c2c4c0781
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\b9\b9f93150bc38b85d31c38a1c2c4c0781
+    projectPath: Library\Artifacts\b9\b9f93150bc38b85d31c38a1c2c4c0781
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\ba\baa4397f838b604f8b5f1e10039d2d93
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ba\baa4397f838b604f8b5f1e10039d2d93
+    projectPath: Library\Artifacts\ba\baa4397f838b604f8b5f1e10039d2d93
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\bb\bb9177af3e3db2581ac87d3f708833f9
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\bb\bb9177af3e3db2581ac87d3f708833f9
+    projectPath: Library\Artifacts\bb\bb9177af3e3db2581ac87d3f708833f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\bc\bc6f14f8b86c0c05c2076dfc815d3fc6
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\bc\bc6f14f8b86c0c05c2076dfc815d3fc6
+    projectPath: Library\Artifacts\bc\bc6f14f8b86c0c05c2076dfc815d3fc6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\be\bea49396f211a339e726b2cecbc86c75
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\be\bea49396f211a339e726b2cecbc86c75
+    projectPath: Library\Artifacts\be\bea49396f211a339e726b2cecbc86c75
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\c4\c478157d66a2a6c75cfe9d0b1e3027cb
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\c4\c478157d66a2a6c75cfe9d0b1e3027cb
+    projectPath: Library\Artifacts\c4\c478157d66a2a6c75cfe9d0b1e3027cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\c5\c51485adf6a93e19d16145f2eabc2e74
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\c5\c51485adf6a93e19d16145f2eabc2e74
+    projectPath: Library\Artifacts\c5\c51485adf6a93e19d16145f2eabc2e74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\c5\c545cc0a35811a39200b63c272183e13
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\c5\c545cc0a35811a39200b63c272183e13
+    projectPath: Library\Artifacts\c5\c545cc0a35811a39200b63c272183e13
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\c6\c61ec715c567dac150089383275c45d9
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\c6\c61ec715c567dac150089383275c45d9
+    projectPath: Library\Artifacts\c6\c61ec715c567dac150089383275c45d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\ca\cac2acbf71a34f4b2b7efa8ca71e30a3
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ca\cac2acbf71a34f4b2b7efa8ca71e30a3
+    projectPath: Library\Artifacts\ca\cac2acbf71a34f4b2b7efa8ca71e30a3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\cd\cdcfa69d54cfcd9e6bf96d35d0ce138b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\cd\cdcfa69d54cfcd9e6bf96d35d0ce138b
+    projectPath: Library\Artifacts\cd\cdcfa69d54cfcd9e6bf96d35d0ce138b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\ce\cef1e87be304971f58ee1ab480d1d043
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ce\cef1e87be304971f58ee1ab480d1d043
+    projectPath: Library\Artifacts\ce\cef1e87be304971f58ee1ab480d1d043
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\d3\d3d3c24899ada8910d084301a630c515
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\d3\d3d3c24899ada8910d084301a630c515
+    projectPath: Library\Artifacts\d3\d3d3c24899ada8910d084301a630c515
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\d5\d5fedb6d8a58d699ade229f3dc5a7694
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\d5\d5fedb6d8a58d699ade229f3dc5a7694
+    projectPath: Library\Artifacts\d5\d5fedb6d8a58d699ade229f3dc5a7694
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\d6\d6e027ca968d45c0c25ccd57a9bf053d
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\d6\d6e027ca968d45c0c25ccd57a9bf053d
+    projectPath: Library\Artifacts\d6\d6e027ca968d45c0c25ccd57a9bf053d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\d8\d8289d1b3b54c9cb7c83d342f639f52c
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\d8\d8289d1b3b54c9cb7c83d342f639f52c
+    projectPath: Library\Artifacts\d8\d8289d1b3b54c9cb7c83d342f639f52c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\d8\d862a691738cc1e0eeb423985ee49bc5
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\d8\d862a691738cc1e0eeb423985ee49bc5
+    projectPath: Library\Artifacts\d8\d862a691738cc1e0eeb423985ee49bc5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\d8\d8fe3dea067f1133f7a362b28b236171
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\d8\d8fe3dea067f1133f7a362b28b236171
+    projectPath: Library\Artifacts\d8\d8fe3dea067f1133f7a362b28b236171
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\dd\ddf9925bb939a9bdf5d519a077ba2aac
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\dd\ddf9925bb939a9bdf5d519a077ba2aac
+    projectPath: Library\Artifacts\dd\ddf9925bb939a9bdf5d519a077ba2aac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\e2\e2a53e8a44f3f26ea24b446d59397463
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\e2\e2a53e8a44f3f26ea24b446d59397463
+    projectPath: Library\Artifacts\e2\e2a53e8a44f3f26ea24b446d59397463
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\e4\e4f5a68a6cdc6c9b7a4e6c5c802bd0f8
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\e4\e4f5a68a6cdc6c9b7a4e6c5c802bd0f8
+    projectPath: Library\Artifacts\e4\e4f5a68a6cdc6c9b7a4e6c5c802bd0f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\e5\e575086ac49c8eaee5f68c966d11de9b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\e5\e575086ac49c8eaee5f68c966d11de9b
+    projectPath: Library\Artifacts\e5\e575086ac49c8eaee5f68c966d11de9b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\ee\ee24d1f0a3c80edd40e35796707cf506
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ee\ee24d1f0a3c80edd40e35796707cf506
+    projectPath: Library\Artifacts\ee\ee24d1f0a3c80edd40e35796707cf506
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\Artifacts\f2\f29288dfeb36ef264ca6958ad3930be6
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\f2\f29288dfeb36ef264ca6958ad3930be6
+    projectPath: Library\Artifacts\f2\f29288dfeb36ef264ca6958ad3930be6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\f5\f5a028b1f3e84fda4c29f6b35c8a7e2f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\f5\f5a028b1f3e84fda4c29f6b35c8a7e2f
+    projectPath: Library\Artifacts\f5\f5a028b1f3e84fda4c29f6b35c8a7e2f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\f6\f66b3ba441bbe4a376c1160ab66fb550
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\f6\f66b3ba441bbe4a376c1160ab66fb550
+    projectPath: Library\Artifacts\f6\f66b3ba441bbe4a376c1160ab66fb550
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\fb\fbd2c7048fe4efdd1602eda5627fb8da
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\fb\fbd2c7048fe4efdd1602eda5627fb8da
+    projectPath: Library\Artifacts\fb\fbd2c7048fe4efdd1602eda5627fb8da
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\fc\fc9bf9d02ce175b1c5e9526cd2b82e09
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\fc\fc9bf9d02ce175b1c5e9526cd2b82e09
+    projectPath: Library\Artifacts\fc\fc9bf9d02ce175b1c5e9526cd2b82e09
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\fe\fea4f84f0d70956a61e12908927b9f2f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\fe\fea4f84f0d70956a61e12908927b9f2f
+    projectPath: Library\Artifacts\fe\fea4f84f0d70956a61e12908927b9f2f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\fe\feef6d34bd57130a64674298e0828f08
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\fe\feef6d34bd57130a64674298e0828f08
+    projectPath: Library\Artifacts\fe\feef6d34bd57130a64674298e0828f08
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\Artifacts\ff\ff6930831a7a022b656fc2750db224de
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\Artifacts\ff\ff6930831a7a022b656fc2750db224de
+    projectPath: Library\Artifacts\ff\ff6930831a7a022b656fc2750db224de
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: SeniorProject\Library\EditorInstance.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: SeniorProject\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -52,21 +756,291 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: SeniorProject\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\ShaderCache\1\1759aac559f54cab6775ce465114a4b5.bin
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\1\1759aac559f54cab6775ce465114a4b5.bin
+    projectPath: Library\ShaderCache\1\1759aac559f54cab6775ce465114a4b5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\ShaderCache\1\1f2af4f09bab55f1377f5dacb552b32a.bin
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\1\1f2af4f09bab55f1377f5dacb552b32a.bin
+    projectPath: Library\ShaderCache\1\1f2af4f09bab55f1377f5dacb552b32a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\ShaderCache\1\1f71326e4e0fbe93f4e7317cac6b068b.bin
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\1\1f71326e4e0fbe93f4e7317cac6b068b.bin
+    projectPath: Library\ShaderCache\1\1f71326e4e0fbe93f4e7317cac6b068b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\ShaderCache\2\2aa92a1a2dea618e5bf632a7833a6623.bin
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\2\2aa92a1a2dea618e5bf632a7833a6623.bin
+    projectPath: Library\ShaderCache\2\2aa92a1a2dea618e5bf632a7833a6623.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\ShaderCache\5\5244148ecd114eedfe04da7dedbf055f.bin
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\5\5244148ecd114eedfe04da7dedbf055f.bin
+    projectPath: Library\ShaderCache\5\5244148ecd114eedfe04da7dedbf055f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\ShaderCache\b\b960a7c8c92e36fa99c2a23315469be8.bin
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\b\b960a7c8c92e36fa99c2a23315469be8.bin
+    projectPath: Library\ShaderCache\b\b960a7c8c92e36fa99c2a23315469be8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe10.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe10.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe10.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe8.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe8.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe9.log
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\shadercompiler-UnityShaderCompiler.exe9.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe9.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: SeniorProject\Library\SourceAssetDB
     fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: SeniorProject\Library\StateCache\MainStageHierarchy\cb\cbb2c8b35a7f484e31e45d06b654f98a.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\MainStageHierarchy\cb\cbb2c8b35a7f484e31e45d06b654f98a.json
+    projectPath: Library\StateCache\MainStageHierarchy\cb\cbb2c8b35a7f484e31e45d06b654f98a.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\StateCache\PrefabStageHierarchy\22\2240963d1ea47b2b424561e25ffff7dc.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\PrefabStageHierarchy\22\2240963d1ea47b2b424561e25ffff7dc.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\22\2240963d1ea47b2b424561e25ffff7dc.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\StateCache\PrefabStageHierarchy\6e\6e71462dde5df4a1d752696ffa480743.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\PrefabStageHierarchy\6e\6e71462dde5df4a1d752696ffa480743.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\6e\6e71462dde5df4a1d752696ffa480743.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\StateCache\PrefabStageHierarchy\84\84719f51f11096e0f3ea6b6a7a3f5224.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\PrefabStageHierarchy\84\84719f51f11096e0f3ea6b6a7a3f5224.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\84\84719f51f11096e0f3ea6b6a7a3f5224.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\StateCache\SceneView\59\59cd0cc4a336cd4bc2216fd118bb72b8.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\SceneView\59\59cd0cc4a336cd4bc2216fd118bb72b8.json
+    projectPath: Library\StateCache\SceneView\59\59cd0cc4a336cd4bc2216fd118bb72b8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\StateCache\SceneView\b6\b62bcafbac6d13ca1b6a90e1895042ac.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\SceneView\b6\b62bcafbac6d13ca1b6a90e1895042ac.json
+    projectPath: Library\StateCache\SceneView\b6\b62bcafbac6d13ca1b6a90e1895042ac.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Library\StateCache\SceneView\bb\bb653f51dabe8a7a0d923875087e8804.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\SceneView\bb\bb653f51dabe8a7a0d923875087e8804.json
+    projectPath: Library\StateCache\SceneView\bb\bb653f51dabe8a7a0d923875087e8804.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Library\StateCache\SceneView\ea\ea8cbb282b89cce988ddb565a42eb5d0.json
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Library\StateCache\SceneView\ea\ea8cbb282b89cce988ddb565a42eb5d0.json
+    projectPath: Library\StateCache\SceneView\ea\ea8cbb282b89cce988ddb565a42eb5d0.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SeniorProject\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\ProcessJobs\3d723d4ae83a7b93e3ae32ca7d29518a.bakert
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\ProcessJobs\3d723d4ae83a7b93e3ae32ca7d29518a.bakert
+    projectPath: Temp\ProcessJobs\3d723d4ae83a7b93e3ae32ca7d29518a.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: SeniorProject\Temp\ProcessJobs\72c38c351c10dd27e3ee5d6b5326c304.bakert
     fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\ProcessJobs\72c38c351c10dd27e3ee5d6b5326c304.bakert
     projectPath: Temp\ProcessJobs\72c38c351c10dd27e3ee5d6b5326c304.bakert
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: SeniorProject\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: SeniorProject\Temp\UnityLockfile
     fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-03ce13f3deb57234a8c1d68c84010156
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-03ce13f3deb57234a8c1d68c84010156
+    projectPath: Temp\UnityTempFile-03ce13f3deb57234a8c1d68c84010156
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-09627054233fb7145aef69bf6f2e8c47
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-09627054233fb7145aef69bf6f2e8c47
+    projectPath: Temp\UnityTempFile-09627054233fb7145aef69bf6f2e8c47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-0be668cd812cc10449d0a78e5091d60b
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-0be668cd812cc10449d0a78e5091d60b
+    projectPath: Temp\UnityTempFile-0be668cd812cc10449d0a78e5091d60b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-0d1eec6c475a79942937d3ed54cdf99d
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-0d1eec6c475a79942937d3ed54cdf99d
+    projectPath: Temp\UnityTempFile-0d1eec6c475a79942937d3ed54cdf99d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-10376265c2410a5459f8b471fd7e0e42
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-10376265c2410a5459f8b471fd7e0e42
+    projectPath: Temp\UnityTempFile-10376265c2410a5459f8b471fd7e0e42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-17354eef5b915ca46a951d4cea184ad9
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-17354eef5b915ca46a951d4cea184ad9
+    projectPath: Temp\UnityTempFile-17354eef5b915ca46a951d4cea184ad9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-28116952c0165984e85f72ee9619e0dc
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-28116952c0165984e85f72ee9619e0dc
+    projectPath: Temp\UnityTempFile-28116952c0165984e85f72ee9619e0dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-7a065cdf40d25c941a121501d19cc45f
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-7a065cdf40d25c941a121501d19cc45f
+    projectPath: Temp\UnityTempFile-7a065cdf40d25c941a121501d19cc45f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-9ca40204cc3fa7a4eb4cb7cf0b41d849
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-9ca40204cc3fa7a4eb4cb7cf0b41d849
+    projectPath: Temp\UnityTempFile-9ca40204cc3fa7a4eb4cb7cf0b41d849
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-acb19c354ca8d3a46b0af459d3549145
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-acb19c354ca8d3a46b0af459d3549145
+    projectPath: Temp\UnityTempFile-acb19c354ca8d3a46b0af459d3549145
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-bb427b1966f8a034281c948b5624fa05
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-bb427b1966f8a034281c948b5624fa05
+    projectPath: Temp\UnityTempFile-bb427b1966f8a034281c948b5624fa05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-da0d54dee8a056f4db87a656b78c83c2
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-da0d54dee8a056f4db87a656b78c83c2
+    projectPath: Temp\UnityTempFile-da0d54dee8a056f4db87a656b78c83c2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-db5ae9244c4e3e740959d96a34e80ef1
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-db5ae9244c4e3e740959d96a34e80ef1
+    projectPath: Temp\UnityTempFile-db5ae9244c4e3e740959d96a34e80ef1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: SeniorProject\Temp\UnityTempFile-e23afa32dd20ecd4a92d1cb9d4d38dff
+    fullPath: C:\Users\dan49\Desktop\Project Garnet\SeniorProject\Temp\UnityTempFile-e23afa32dd20ecd4a92d1cb9d4d38dff
+    projectPath: Temp\UnityTempFile-e23afa32dd20ecd4a92d1cb9d4d38dff
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
