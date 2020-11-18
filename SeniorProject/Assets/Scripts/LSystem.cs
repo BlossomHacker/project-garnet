@@ -8,7 +8,7 @@ public class LSystem : MonoBehaviour
     public float growSpeed=20;
     public float leafGrowSpeed = 2;
 
-
+    //Changeable variables to modify outcome
     public List<Rules> personalizedRules = new List<Rules>();
     public int iterations;
     public float angle;
@@ -21,20 +21,29 @@ public class LSystem : MonoBehaviour
     public bool hasTreeChanged;
     public GameObject tree;
     public Rules currentlyAppliedRules;
-    
 
+    
+	//Prefabs
     public GameObject treeParent;
     public GameObject branch;
     public GameObject leaf;
 
+    public bool randomTree;
+    
+
 	private static LSystem instance;
 	public static LSystem Instance {get { return instance; } }
 
-   
+    //This represents our starting character.
     private const string axiom = "X";
 
+    //This keeps tracks of our rules.
+	//Refer to AB -> A and A -> B (Maybe show Wikipedia Graphic)
 	private Dictionary<char, string> rules = new Dictionary<char, string>();
-    
+    //This is necessary for when we have to save and refer back to a prior position.
+	//Imagine a stack like a stack of paper, this is perfect for us because some of our Rules 
+	//will instruct us to safe the current Transform, do a few moves and then return to the last
+	//saved Transform.
     private Stack<SavedTransform> transformStack = new Stack<SavedTransform>();
 
     private Vector3 initialPosition;
@@ -44,7 +53,8 @@ public class LSystem : MonoBehaviour
     List<TreeElement> allLines;
     List<Coroutine> animationRoutines;
 
-  
+    //The string keeps our path instructions, it is growing with every iteration. 
+    //We therefore need to keep track of it
     private string currentString = "";
     private float[] randomRotations;
 
@@ -52,14 +62,26 @@ public class LSystem : MonoBehaviour
 	{
         instance = this;
 
-       
-        randomRotations = new float[1000];
+        if (randomTree == true)
+        {
+            iterations = UnityEngine.Random.Range(3,4);
+            angle = UnityEngine.Random.Range(5, 120);
+            width = UnityEngine.Random.Range(0.02f, 0.07f);
+            minLeafLength = UnityEngine.Random.Range(0.05f, 0.1f);
+            maxLeafLength = UnityEngine.Random.Range(0.11f, 0.2f);
+            minlength = UnityEngine.Random.Range(0.05f, 0.075f);
+            maxLength = UnityEngine.Random.Range(0.0751f, 0.16f);
+            variance = UnityEngine.Random.Range(1, 10);
+        }
+            //Now to make our endresult appear in three dimensions we need some random angles.
+            //To do so We are generating and array of as many random values between -1 and 1 as we like.
+            randomRotations = new float[1000];
         for (int i = 0; i < randomRotations.Length; i++)
 		{
             randomRotations[i] = Random.Range(-1.0f, 1.0f);
         }
 
-	
+		//If we have set up some personalized rules we are using them.
 		if(personalizedRules.Count > 0)
 		{
             currentlyAppliedRules = personalizedRules[0];
@@ -67,12 +89,13 @@ public class LSystem : MonoBehaviour
         } 
 		else 
 		{
-			
-        	rules.Add('X', "[-FX][+FX][FX]");
+			//We are also populating our set of rules with a standard set of rules just in
+			//case that our personalized rules are empty.
+        	rules.Add('X', "[F[+FX][*+FX][/+FX]]");
         	rules.Add('F', "FF");
 		}
 
-        
+        //Lastly we need to call our Generate() function to generate a tree.
         Generate();
     }
 
@@ -155,16 +178,21 @@ public class LSystem : MonoBehaviour
         Destroy(tree);
         tree = Instantiate(treeParent);
 
-       
+        //------------PART ONE - GROWING OF THE STRING/PATH--------------------------------
+        //We are starting out to setting our currentString that is going to be our
+        //"growing path" to our start position (the axiom)
         currentString = axiom;
 
-       
+        //We are using System.Text to make use of a stringbuilder
         StringBuilder stringBuilder = new StringBuilder();
 
-		
+		//We are looping through our iterations as we are repeating the process that many times.
         for (int i = 0; i < iterations; i++)
 		{
-			
+			//We are then getting an array consisting of all the chars in our currentString,
+			//because we want to loop over them.To check if our current set of rules contains 
+			//this char, if it does we want to apply our rules.
+			//This is how our stirng will grow.
             char[] currentStringChars = currentString.ToCharArray();
             for (int j = 0; j < currentStringChars.Length; j++)
 			{
@@ -174,18 +202,21 @@ public class LSystem : MonoBehaviour
             currentString = stringBuilder.ToString();
             stringBuilder = new StringBuilder();
         }
-      
+        //------------PART TWO - DRAWING OF THE LINES--------------------------------
+        //We are starting out by looping over every character in our currentString
+        //to then apply our instructions to each of them and draw the lines approprietly
         for (int k = 0; k < currentString.Length; k++)
         {
             switch (currentString[k])
             {
                 case 'F':
-                    
+                    //Positioning Changes - Moving our Object up/Forwards
                     initialPosition = transform.position;
                     bool isLeaf = false;
 
                     GameObject currentElement;
-                  
+                    //Since every F - so therefore every move forward is represented in a new Tree Element we need to decide
+                    //if this new Element should be a Leaf or a Branch.
                     if (currentString[k + 1] % currentString.Length == 'X' || currentString[k + 3] % currentString.Length == 'F' &&
                     currentString[k + 4] % currentString.Length == 'X')
                     {
@@ -199,10 +230,10 @@ public class LSystem : MonoBehaviour
 
                     currentElement.transform.SetParent(tree.transform);
 
-                 
+                    //Getting the currentTreeElement so that we can access the linerenderer
                     TreeElement currentTreeElement = currentElement.GetComponent<TreeElement>();
 
-				
+					//Setting the LineRenderers start and endpoint aswell as its thiccness and color
                     currentTreeElement.lineRenderer.SetPosition(0, initialPosition);
 
 					if(isLeaf)
@@ -232,7 +263,8 @@ public class LSystem : MonoBehaviour
 				case 'X':
                     break;
 	
-			
+				//For +,-,* and / we want to rotate in differenct directions.
+				//We are using our Array of Random Directions here. 
 				case '+':
 					transform.Rotate(Vector3.back * angle * (1 + variance / 100 * randomRotations[k % randomRotations.Length]));
                     break;
@@ -249,12 +281,18 @@ public class LSystem : MonoBehaviour
 					transform.Rotate(Vector3.down * 120f * (1f + variance / 100f * randomRotations[k % randomRotations.Length]));
                     break;
 
-				
+				//Now, for the spikey bracket we are saving the current position and placing it at
+				//the top of our Stack. The best way to explain this process is the following:
+				//If we are trying to draw a tree on paper, which has multiple end points, as it has different branches and such
+				//We will need to lift the pen off the paper every now and then. So what we are doing is we are saving
+				//the position were we want to draw a branch at a later point. And then once we finished the current branch we were 
+				//working on we are going back to that saved position to add our new branch there.
                 case '[':
                     transformStack.Push(new SavedTransform(transform.position, transform.rotation));
                     break;
 
-				
+				//We are getting the last saved transform from our strack and apply it to our gameobject.
+				//to then continue from this position.
 				case ']':
                     SavedTransform savedTransform = transformStack.Pop();
 
@@ -263,22 +301,23 @@ public class LSystem : MonoBehaviour
                     break;
             }
 
-			
+			//Calculating the bounds to make sure that our newly generated tree can be displayed
             boundsMinMaxX.x = Mathf.Min(transform.position.x, boundsMinMaxX.x);
 			boundsMinMaxX.y = Mathf.Max(transform.position.x, boundsMinMaxX.y);
 			boundsMinMaxY.x = Mathf.Min(transform.position.y, boundsMinMaxY.x);
 			boundsMinMaxY.y = Mathf.Max(transform.position.y, boundsMinMaxY.y);
         }
 
+		//Applying the calculated bounds minimum and maximum in comparison to the rect to our camera for scaling the viewport to our tree.
 		float aspect = (float)Screen.width / Screen.height;
         Vector3 treeCentre = new Vector3(boundsMinMaxX.x + boundsMinMaxX.y, boundsMinMaxY.x + boundsMinMaxY.y) * .5f;
         float treeHeight = boundsMinMaxY.y - boundsMinMaxY.x;
 		float treeWidth = boundsMinMaxX.y - boundsMinMaxX.x;
         float treeSize = Mathf.Max(treeHeight, treeWidth*aspect);
-        Camera.main.orthographic = true;
-        Camera.main.orthographicSize = treeSize * .5f + 1.5f;
+        //Camera.main.orthographic = false;
+        //Camera.main.orthographicSize = treeSize * .5f + 1.5f;
         
-        Camera.main.transform.position = treeCentre + Vector3.back + Vector3.left * Camera.main.orthographicSize * aspect * .5f;
+        //Camera.main.transform.position = treeCentre + Vector3.back + Vector3.left * Camera.main.sensorSize * aspect * .5f;
 
     }
 
@@ -293,7 +332,9 @@ public class LSystem : MonoBehaviour
 	{
 		if(personalizedRules.Contains(currentlyAppliedRules))
 		{
+			//Clearing the old rules from the dictionary
             rules.Clear();
+			//Looping through all the rules and adding them to the rules dictionary.
             for (int i = 0; i < currentlyAppliedRules.rules.Count; i++)
 			{
                 rules.Add(currentlyAppliedRules.rules[i].Name, currentlyAppliedRules.rules[i].addition);

@@ -12,6 +12,12 @@ public class MapGenerator : MonoBehaviour
 	public string seed;
 	public bool useRandomSeed;
 
+	public GameObject Tree;
+	public GameObject Exit;
+	public GameObject Player;
+	
+	Quaternion q = new Quaternion(0, 0, 0, 0);
+
 	[Range(0, 100)]
 	public int randomFillPercent;
 
@@ -26,7 +32,7 @@ public class MapGenerator : MonoBehaviour
 
 	void Update()
 	{
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetKeyDown(KeyCode.R))
 		{
 			GenerateMap();
 		}
@@ -69,7 +75,10 @@ public class MapGenerator : MonoBehaviour
 	void ProcessMap()
 	{
 		List<List<Coord>> wallRegions = GetRegions(1);
+
 		int wallThresholdSize = 50;
+		bool playerspawned = false;
+		bool exitspawned = false;
 
 		foreach (List<Coord> wallRegion in wallRegions)
 		{
@@ -100,6 +109,59 @@ public class MapGenerator : MonoBehaviour
 				survivingRooms.Add(new Room(roomRegion, map));
 			}
 		}
+
+		foreach (List<Coord> roomRegion in roomRegions)
+		{
+			if (roomRegion.Count > roomThresholdSize)
+			{
+				foreach (Coord tile in roomRegion)
+				{
+					int rollthedice = UnityEngine.Random.Range(0, 500);
+					if (rollthedice < 10)
+					{
+						Vector3 pos = new Vector3(tile.tileX-(width/2), 0, tile.tileY-(height/2));
+						Instantiate(Tree, pos, q);
+						
+					}
+				}
+			}
+			/*
+			int rolltheregion = UnityEngine.Random.Range(0, wallRegions.Count);
+			int rollthetile = UnityEngine.Random.Range(0, wallRegions[rolltheregion].Count);
+			int rolltheexitregion = UnityEngine.Random.Range(0, wallRegions.Count);
+			int rolltheexittile = UnityEngine.Random.Range(0, wallRegions[rolltheregion].Count);
+			Vector3 playerPos = new Vector3((wallRegions[rolltheregion][rollthetile].tileX) - (width / 2), 0, (wallRegions[rolltheregion][rollthetile].tileY) - (height / 2));
+			Vector3 exitPos = new Vector3((wallRegions[rolltheexitregion][rolltheexittile].tileX) - (width / 2), 0, (wallRegions[rolltheexitregion][rolltheexittile].tileY) - (height / 2));
+			*/
+			
+			foreach (Coord tile in roomRegion)
+			{
+				int rtdplayer = UnityEngine.Random.Range(0, 10000);
+
+				if (rtdplayer < 5 && playerspawned == false)
+				{
+					Vector3 playerPos = new Vector3(tile.tileX - (width / 2), 1, tile.tileY - (height / 2));
+					Instantiate(Player, playerPos, q);
+					playerspawned = true;
+				}
+			}
+			foreach (Coord tile in roomRegion)
+			{
+				int rtdexit = UnityEngine.Random.Range(0, 10000);
+
+				if (rtdexit < 5 && exitspawned == false)
+				{
+					Vector3 exitPos = new Vector3(tile.tileX - (width / 2), 0, tile.tileY - (height / 2));
+					Instantiate(Exit, exitPos, q);
+					exitspawned = true;
+				}
+			}
+			
+
+
+
+		}
+		
 		survivingRooms.Sort();
 		survivingRooms[0].isMainRoom = true;
 		survivingRooms[0].isAccessibleFromMainRoom = true;

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 
 public class MeshGenerator : MonoBehaviour
 {
@@ -63,6 +64,7 @@ public class MeshGenerator : MonoBehaviour
 		else
 		{
 			CreateWallMesh();
+
 		}
 	}
 
@@ -101,6 +103,12 @@ public class MeshGenerator : MonoBehaviour
 
 		MeshCollider wallCollider = walls.gameObject.AddComponent<MeshCollider>();
 		wallCollider.sharedMesh = wallMesh;
+		wallMesh.RecalculateNormals();
+		//wallMesh.vertices = vertices;
+		//wallMesh.uv = uvs;
+		//wallMesh.triangles = triangles;
+		//wallMesh.vertices = vertices;
+		Unwrapping.GenerateSecondaryUVSet(wallMesh);
 	}
 
 	void Generate2DColliders()
